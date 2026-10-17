@@ -1,0 +1,11 @@
+PROJECT_NAME           = "Registro Academico"
+OUTPUT_DIRECTORY       = .
+HTML_OUTPUT            = docs
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+INPUT                  = include src README.md
+USE_MDFILE_AS_MAINPAGE = README.md
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+OPTIMIZE_OUTPUT_FOR_C  = NO
